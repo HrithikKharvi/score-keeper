@@ -1,0 +1,75 @@
+body{
+    display:flex;
+    justify-content:center;
+}
+
+body>div{
+    width:500px;
+    /* height:457px; */
+    /* background-color: red; */
+    border:3px solid grey;
+}
+#imageContainer{
+    width:100%;
+    height:250px;
+    border:1px solid grey;
+}
+
+#imageText{
+    padding:5px;
+    border:1px solid grey;
+    font-weight: bold;
+}
+
+.spacing{
+    margin:10px 10px;
+}
+
+#points{
+    margin:20px 10px;
+}
+
+button{
+    width: calc(492px/3);
+    margin:10px 0;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 15px;
+    font-weight:bold;
+    margin-bottom:0;
+    
+}
+
+button:nth-of-type(1){
+    background-color: rgb(56, 199, 255);
+}
+
+button:nth-of-type(2){
+    background-color:rgb(14, 50, 255);
+}
+
+button:nth-of-type(3){
+    background-color: rgb(246, 40, 40);
+}
+
+span{
+    padding:3px 5px;
+}
+
+.red{
+    color:red;
+    transition:0.5s color;
+}
+
+.green{
+    color:green;
+    transition:0.5s color;
+}
+
+
+
+
+
+
+
+
